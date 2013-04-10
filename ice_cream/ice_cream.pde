@@ -2,7 +2,11 @@ void setup() {
  size(500, 500); 
 }
 
-void draw() {
+void draw(){
+  drawIceCream();
+}
+
+void drawIceCream(){
   noStroke(); 
   fill(200,100,50);
   triangle(250,400,290,280,210,280);
@@ -12,9 +16,9 @@ void draw() {
   fill(255,235,160);
   ellipse(250,180,100,100);
   ellipse(250,220,100,30);
- }
- 
-void drawIceCream(){
+}
+
+
 
 
 
